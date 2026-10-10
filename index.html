@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of a Full Stack Developer.">
+    <title>Your Name | Full Stack Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Dev<span>Portfolio.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Open navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section class="hero section container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Dweep Jana</span></h1>
+                <h2>I'm a <span class="accent">Full Stack Developer</span></h2>
+
+                <p class="hero-description">
+                    I build modern, responsive websites and web applications.
+                    I enjoy solving problems and turning ideas into useful
+                    digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/dweep-jana"
+                       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/dweep-jana-471561401?"
+                       target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="code-icon">&lt;/&gt;</div>
+                <p class="card-label">CURRENT FOCUS</p>
+                <h3>Building for the web</h3>
+                <p>Frontend · Backend · Database</p>
+                <div class="status">
+                    <span class="status-dot"></span>
+                    Learning & building
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section container" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span class="accent">Me</span></h2>
+            </div>
+
+            <div class="about-card">
+                <h3>Aspiring Full Stack Developer</h3>
+                <p>
+                    I'm a Computer Science student passionate about software
+                    development and web technologies. I am developing my skills
+                    in Python, Django, databases and frontend development.
+                </p>
+                <p>
+                    My goal is to create practical applications, improve my
+                    problem-solving skills and grow as a Full Stack Developer.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section container" id="skills">
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I WORK WITH</p>
+                <h2>My <span class="accent">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span class="skill-icon">Py</span>
+                    <h3>Python</h3>
+                    <p>Programming and problem solving</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">DJ</span>
+                    <h3>Django</h3>
+                    <p>Backend and web applications</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">HT</span>
+                    <h3>HTML & CSS</h3>
+                    <p>Web structure and styling</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">JS</span>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web experiences</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">DB</span>
+                    <h3>SQL</h3>
+                    <p>Database fundamentals</p>
+                </article>
+
+                <article class="skill-card">
+                    <span class="skill-icon">GH</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration</p>
+                </article>
+            </div>
+            <p class="note">
+                Keep only the technologies you can confidently discuss in an interview.
+            </p>
+        </section>
+
+        <!-- Projects -->
+        <section class="section container" id="projects">
+            <div class="section-heading">
+                <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+                <h2>My <span class="accent">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-visual visual-one">&lt;DB /&gt;</div>
+                    <div class="project-content">
+                        <p class="project-type">PYTHON · SQLITE</p>
+                        <h3>Student Management System</h3>
+                        <p>
+                            A student record management application with
+                            login, registration and database operations.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span><span>SQLite</span>
+                        </div>
+                        <a class="project-link"
+                           href="https://github.com/dweep-jana/Student_management_system"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-two">✓ TASKFLOW</div>
+                    <div class="project-content">
+                        <p class="project-type">PYTHON · DATABASE</p>
+                        <h3>TaskFlow</h3>
+                        <p>
+                            A task management application to organize tasks,
+                            deadlines, priorities and completion status.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span><span>SQLite</span>
+                        </div>
+                        <a class="project-link"
+                           href="https://github.com/YOUR_USERNAME/taskflow"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-three">{ Django }</div>
+                    <div class="project-content">
+                        <p class="project-type">WEB DEVELOPMENT</p>
+                        <h3>Django Web Application</h3>
+                        <p>
+                            A web application demonstrating templates, views,
+                            URL routing and database integration.
+                        </p>
+                        <div class="tags">
+                            <span>Django</span><span>HTML</span><span>CSS</span>
+                        </div>
+                        <a class="project-link"
+                           href="https://github.com/YOUR_USERNAME/django-project"
+                           target="_blank" rel="noopener noreferrer">
+                            View Project ↗
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="note">
+                These are starter descriptions. Update them to match your actual
+                projects and replace every sample GitHub link.
+            </p>
+        </section>
+
+        <!-- Resume -->
+        <section class="section container" id="resume">
+            <div class="resume-card">
+                <div>
+                    <p class="eyebrow">MY EXPERIENCE & EDUCATION</p>
+                    <h2>Want to know more?</h2>
+                    <p>
+                        Download my resume to learn about my education,
+                        skills and projects.
+                    </p>
+                </div>
+
+                <a href="assets/resume.pdf" class="btn btn-primary" download>
+                    Download Resume ↓
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section container" id="contact">
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Contact <span class="accent">Me</span></h2>
+                <p>Have an opportunity or project idea? Let's talk.</p>
+            </div>
+
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>I'm open to connecting about development and learning
+                       opportunities.</p>
+                    <p>Email: <a href="mailto:dweepjana@gmail.com">
+                        dweepjana@gmail.com</a></p>
+                    <p>GitHub: <a href="https://github.com/dweep-jana">
+                        View my GitHub</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/dweep-jana-471561401?">
+                        Connect with me</a></p>
+                </div>
+
+                <form id="contact-form" class="contact-form">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name"
+                           placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email"
+                           placeholder="Enter your email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"
+                              placeholder="Write your message..." required></textarea>
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Message ↗
+                    </button>
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© <span id="year"></span> Dweep Jana. Built with HTML, CSS & JavaScript.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
